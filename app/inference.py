@@ -56,7 +56,7 @@ class Inference:
         request['resting_electro_cardio_graphic_result'] = self._categorical_mapping['resting_electro_cardio_graphic_result'][request['resting_electro_cardio_graphic_result']]
 
         request_values = self._flatten_values(request.values())
-        features = self._scaler.fit_transform(np.array(request_values).reshape(-1, 1)).T
+        features = self._scaler.transform(np.array(request_values).reshape(-1, 1)).T
         return torch.tensor(features, dtype=torch.float32).to(CONFIG['DEVICE'])
     
 

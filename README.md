@@ -20,7 +20,7 @@ Specifically, in this session, I have covered:
 - Finally, once everything is installed, just run the command using:
 
 ```python
-PYTHONPATH=. python app/main.py
+python app/main.py
 ```
 This will start our server.
 
@@ -40,12 +40,14 @@ This will start building our docker image
 docker run ml/session1:latest
 ```
 
+
+### Video demo
+https://drive.google.com/drive/folders/1IUsN6XmqMVYCXlSB2tcgXkSEr-XtOoY-?usp=sharing
+
+
+
 #### **Comming soon:**
 
-Some of the things that I will be doing in the future on this repository are:
-
-- Creating a detailed blog/playlist for the same.  
-- Using and integrating services like MlFlow, W&B for model registration. 
 
 
 ---

@@ -11,6 +11,7 @@ from fastapi.exceptions import RequestValidationError
 import torch
 from config import CONFIG
 from inference import Inference
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from Models.baseline_model import Model
 from schemas import InferenceInput, InferenceResponse, ErrorResponse
 from exceptions import validation_exception_handler, python_exception_handler
