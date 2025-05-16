@@ -1,7 +1,7 @@
 # **Deploy your ML model using FastAPI and docker**
 
 
-Specifically, in this session, we have covered:
+Specifically, in this session, I have covered:
 
 - Convert a initial simple business problem into an end / intermediate solution / service (REST APIs)
 - Used jupyter-notebooks for basic data analysis and EDA. Also we have implemented models to see how it works on the provided data. 
@@ -14,13 +14,13 @@ Specifically, in this session, we have covered:
 
 #### **Method1** Running locally: 
 
-- Clone the repository by running `git clone https://github.com/PyTorchFastAPISession.git` 
+- Clone the repository by running `git clone https://github.com/Prabeshrayamajhi/FuseMachine.git` 
 - First install the latest version of [PyTorch](https://pytorch.org/)
 - Install the remaining dependencies from `requirements.txt` files. 
 - Finally, once everything is installed, just run the command using:
 
-```python3
-PYTHONPATH=. python3 app/main.py
+```python
+PYTHONPATH=. python app/main.py
 ```
 This will start our server.
 
@@ -44,9 +44,9 @@ docker run ml/session1:latest
 
 Some of the things that I will be doing in the future on this repository are:
 
-- Creating a detailed blog/playlist for the same. The main motivation is to make folks understand about each and every thing and different best practices. 
+- Creating a detailed blog/playlist for the same.  
 - Using and integrating services like MlFlow, W&B for model registration. 
-- Making a simple cloud native application on the top of it using K8s. 
+
 
 ---
 
